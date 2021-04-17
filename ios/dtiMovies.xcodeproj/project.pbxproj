@@ -14,6 +14,8 @@
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		951763B7E390CE63A58CDEAC /* libPods-dtiMovies.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF95847A74D8BC509122BD6 /* libPods-dtiMovies.a */; };
 		AF2D96A75947C53D29026ED0 /* libPods-dtiMovies-dtiMoviesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34C251A6D2AE5CC75484AA38 /* libPods-dtiMovies-dtiMoviesTests.a */; };
+		CF04C25469FC4BBEAA79FFD5 /* RobotoSlab-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20F903D07B2A42E0BCB5C548 /* RobotoSlab-Medium.ttf */; };
+		FE539837C97C42CEBECC467E /* RobotoSlab-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D4559DE6591541EF933A4731 /* RobotoSlab-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +39,13 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = dtiMovies/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = dtiMovies/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = dtiMovies/main.m; sourceTree = "<group>"; };
+		20F903D07B2A42E0BCB5C548 /* RobotoSlab-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoSlab-Medium.ttf"; path = "../assets/fonts/RobotoSlab-Medium.ttf"; sourceTree = "<group>"; };
 		34C251A6D2AE5CC75484AA38 /* libPods-dtiMovies-dtiMoviesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dtiMovies-dtiMoviesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45F5D762EE25B5A6CD86FA8A /* Pods-dtiMovies.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dtiMovies.debug.xcconfig"; path = "Target Support Files/Pods-dtiMovies/Pods-dtiMovies.debug.xcconfig"; sourceTree = "<group>"; };
 		6578E9114F1212018C37933B /* Pods-dtiMovies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dtiMovies.release.xcconfig"; path = "Target Support Files/Pods-dtiMovies/Pods-dtiMovies.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = dtiMovies/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D366486263DFF29F5CBF5572 /* Pods-dtiMovies-dtiMoviesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dtiMovies-dtiMoviesTests.release.xcconfig"; path = "Target Support Files/Pods-dtiMovies-dtiMoviesTests/Pods-dtiMovies-dtiMoviesTests.release.xcconfig"; sourceTree = "<group>"; };
+		D4559DE6591541EF933A4731 /* RobotoSlab-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoSlab-Regular.ttf"; path = "../assets/fonts/RobotoSlab-Regular.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		FEF95847A74D8BC509122BD6 /* libPods-dtiMovies.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dtiMovies.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -122,6 +126,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				A2E0E263C21BB9638DF994A3 /* Pods */,
+				CB5FFD9F03FA4FFD94722DA6 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +152,16 @@
 			);
 			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		CB5FFD9F03FA4FFD94722DA6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				20F903D07B2A42E0BCB5C548 /* RobotoSlab-Medium.ttf */,
+				D4559DE6591541EF933A4731 /* RobotoSlab-Regular.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +260,8 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				CF04C25469FC4BBEAA79FFD5 /* RobotoSlab-Medium.ttf in Resources */,
+				FE539837C97C42CEBECC467E /* RobotoSlab-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
