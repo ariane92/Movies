@@ -1,14 +1,56 @@
 import { Reducer } from "redux";
-import { IMovieState } from "./types";
+import { IMoviesList, IMovieState, IIMDBState } from "./types";
 
-const INITIAL_STATE: IMovieState = {
-  title: "",
-  poster: "",
-  ratings: 0,
-  average: 0
-}
-const movie: Reducer<IMovieState> = () => {
-  return INITIAL_STATE;
+const INITIAL_STATE: IMoviesList = {
+  movies: []
 }
 
-export default movie;
+const teste: IMovieState = {
+  Title: "",
+  Poster: "",
+  Year: 0,
+  Type: "",
+  imdbID: "",
+}
+
+const INITIAL_STATE_IMDB = ""
+
+export const moviesList: Reducer<IMoviesList> = (state = INITIAL_STATE, action) => {
+  switch(action.type){
+    case 'LIST_OF_MOVIES': {
+      const { movies } = action.payload
+
+      return {
+        ...state,
+        movies: [
+          ...state.movies,
+          {
+            movies
+          }
+        ]
+      }
+
+    }
+    default: {
+      return state;
+    }
+  }
+}
+
+export const selectedMovie: Reducer<String> = (state = INITIAL_STATE_IMDB, action) => {
+  switch(action.type){
+    case 'SELECTED_MOVIE': {
+      const { imdbID } = action.payload
+
+      return {
+        ...state, imdbID: imdbID
+      }
+
+    }
+    default: {
+      return state;
+    }
+  }
+}
+
+

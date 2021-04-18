@@ -1,6 +1,20 @@
 export interface IMovieState {
-  title: string;
-  poster: string;
-  ratings: number;
-  average: number;
+  Title: string;
+  Poster: string;
+  Year: number;
+  imdbID: string,
+  Type: string,
 }
+
+export interface IMovieInfo {
+  Title: string;
+  Poster: string;
+  Year: number;
+  Ratings: string;
+  imdbID: string,
+}
+
+export interface IMoviesList {
+  movies: IMovieState[]
+}
+
