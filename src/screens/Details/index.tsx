@@ -1,22 +1,19 @@
 
 import React, {useState, useEffect} from 'react';
-import { useRoute } from '@react-navigation/core';
-import { View, Text, SafeAreaView, ActivityIndicator, Image } from 'react-native';
-import { } from 'react'
+
+import {SafeAreaView} from 'react-native';
+
 import Icon from 'react-native-vector-icons/Feather'
 import { useNavigation } from '@react-navigation/native';
 
-import { useDispatch, useSelector } from 'react-redux';
+import { useSelector } from 'react-redux';
 import { IState } from '../../store';
-import { hideLoader, showLoader } from '../../store/modules/loading/actions';
+
 import Loading from '../../components/loading'
 import axios from 'axios';
-import {GenreContainer, GenreText, Poster, Title} from './styles'
+import {GenreText, Poster, Title} from './styles'
 import { Container, Header, BackButton, ContainerInfos, Description } from './styles';
-export interface ApiRequest {
-  Title: string;
-  Year: number;
-}
+
 const Details: React.FC = () => {
   const [movies, setMovies] = useState<{}>()
   const navigation = useNavigation();

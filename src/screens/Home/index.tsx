@@ -43,6 +43,7 @@ const Home: React.FC = () => {
           enabled
         >
           <SearchBar
+            testID="search"
             searchIcon={{ size: 20, color: '#fffe' }}
             onChangeText={(text) => setSearch(text)}
             onClear={(text) => setSearch('')}
