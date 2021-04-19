@@ -20,6 +20,14 @@ const InfoMovies: React.FC<IMoviesList> = ({movies}) => {
 
     [navigation],
   );
+
+  movies.sort(function(aTitle, bTitle){
+    if(aTitle.Title < bTitle.Title){
+      return -1;
+    }else{
+      return true
+    }
+  })
   return (
     <Container>
       <View>

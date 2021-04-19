@@ -22,7 +22,7 @@ const Details: React.FC = () => {
 
   const getMovieRequest = async (selected) => {
 		await axios.get(`https://www.omdbapi.com/?apikey=68b7a486&i=${selected}`).then((response) => {
-      //console.log('response', response.data)
+      console.log(response.data)
       setMovies(response.data)
     })
 	};
@@ -40,25 +40,15 @@ const Details: React.FC = () => {
                 <Icon name="chevron-left" size={28} color="#008c94"/>
               </BackButton>
               <Title>{movies.Title}</Title>
-            </Header>
-
-
-          <Poster source={{uri: movies.Poster}} />
-          {movies && <ContainerInfos>
-
-
-
-
-
+              </Header>
+                <Poster source={{uri: movies.Poster}} />
+                {movies && <ContainerInfos>
                 <GenreText>Genre: {movies.Genre}</GenreText>
                 <GenreText>{movies.Year} - {movies.Runtime}</GenreText>
-
-              <Description>{movies.Plot}</Description>
-
-            </ContainerInfos>}
-
+                <Description>{movies.Plot}</Description>
+                </ContainerInfos>}
           </Container>}
-                  <Loading />
+          <Loading />
     </SafeAreaView>
   )
 }
