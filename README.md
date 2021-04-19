@@ -38,7 +38,8 @@ Aplicação que faz busca por filmes ou séries. As informações utilizadas sã
     $ yarn build
 ```
 ## 📸 Screens
-![](https://github.com/ariane92/dtiMovies/src/assets)
+![img](https://github.com/ariane92/dtiMovies/src/assets/Simulator Screen Shot - iPhone 12 - 2021-04-19 at 07.55.33.png)
+![img](https://github.com/ariane92/dtiMovies/src/assets/Simulator Screen Shot - iPhone 12 - 2021-04-19 at 07.55.40.png)
 
 
 ## 📝 License
