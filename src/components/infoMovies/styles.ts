@@ -1,5 +1,4 @@
 import styled from 'styled-components/native'
-import { RectButton } from 'react-native-gesture-handler';
 
 export const Container = styled.View`
   margin-top: 60px;
@@ -40,15 +39,12 @@ export const YearText = styled.Text`
   font-size: 14px;
   font-family: 'RobotoSlab-Regular';
   text-align: center;
-
-
 `;
 
 export const Labels = styled.View`
   flex-direction: column;
   align-items: flex-start;
   padding: 5px
-
 `;
 
 

@@ -5,14 +5,8 @@ import { useDispatch } from 'react-redux';
 import { Container } from './styles';
 import Icon from 'react-native-vector-icons/MaterialIcons'
 import { IMovieState } from '../../store/modules/movie/types';
-
-
-
-
 import InfoMovies from '../../components/infoMovies'
 import { listOfMovies } from '../../store/modules/movie/actions';
-import api from '../../services/api';
-import axios from 'axios';
 Icon.loadFont()
 
 const Home: React.FC = () => {

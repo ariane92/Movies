@@ -17,7 +17,6 @@ const InfoMovies: React.FC<IMoviesList> = ({movies}) => {
       navigation.navigate('Details');
       dispatch(selectedMovies(imdbID))
     },
-
     [navigation],
   );
 

@@ -1,4 +1,4 @@
-import { IMoviesList, IMovieState, IIMDBState } from "./types";
+import { IMoviesList } from "./types";
 
 export function listOfMovies(movies: IMoviesList) {
   return {

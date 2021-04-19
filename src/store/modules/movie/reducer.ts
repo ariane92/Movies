@@ -1,5 +1,5 @@
 import { Reducer } from "redux";
-import { IMoviesList, IMovieState, IIMDBState } from "./types";
+import { IMoviesList, IMovieState} from "./types";
 
 const INITIAL_STATE: IMoviesList = {
   movies: []
