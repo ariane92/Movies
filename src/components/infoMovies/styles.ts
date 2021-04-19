@@ -25,12 +25,19 @@ export const MovieContainer = styled.View`
 export const Poster = styled.Image`
   width: 82px;
   height: 82px;
-  margin-right: 8px;
+  margin-right: 12px;
 `;
 
 export const Title = styled.Text`
   color: #f4ede8;
   font-size: 18px;
+  font-family: 'RobotoSlab-Medium';
+  text-align: center;
+`;
+
+export const YearText = styled.Text`
+  color: #f4ede8;
+  font-size: 14px;
   font-family: 'RobotoSlab-Regular';
   text-align: center;
 
@@ -40,6 +47,7 @@ export const Title = styled.Text`
 export const Labels = styled.View`
   flex-direction: column;
   align-items: flex-start;
+  padding: 5px
 
 `;
 

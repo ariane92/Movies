@@ -19,6 +19,7 @@ const Home: React.FC = () => {
   const dispatch = useDispatch()
   const [movies, setMovies] = useState<IMovieState[]>([])
   const [search, setSearch] = useState('')
+  console.disableYellowBox = true;
 
   const getListOfMovies = async (search) => {
 		const url = `https://www.omdbapi.com/?apikey=68b7a486&s=${search}`;
