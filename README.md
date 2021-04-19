@@ -38,7 +38,7 @@ Aplicação que faz busca por filmes ou séries. As informações utilizadas sã
     $ yarn build
 ```
 ## 📸 Screens
-![](https://github.com/ariane92/photo-album/)
+![](https://github.com/ariane92/dtiMovies/src/assets)
 
 
 ## 📝 License
