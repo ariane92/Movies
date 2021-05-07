@@ -1,4 +1,4 @@
-<h2 align="center">  dtiMovies</h2>
+<h2 align="center">  Movies</h2>
 
 ## :information_source: Sobre
 
